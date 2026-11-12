@@ -1,0 +1,47 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "wafer_sem_particle.png",
+      "width": 1536,
+      "height": 1536
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [550, 620, 90, 85],
+      "segmentation": [[550, 620, 640, 620, 640, 705, 550, 705]],
+      "area": 7650,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [200, 350, 420, 240],
+      "segmentation": [[200, 350, 620, 350, 620, 590, 200, 590]],
+      "area": 100800,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [720, 770, 110, 60],
+      "segmentation": [[720, 770, 830, 770, 830, 830, 720, 830]],
+      "area": 6600,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "PARTICLE", "supercategory": "semiconductor_defect" },
+    { "id": 2, "name": "SCRATCH", "supercategory": "semiconductor_defect" },
+    { "id": 3, "name": "PATTERN_BRIDGING", "supercategory": "semiconductor_defect" },
+    { "id": 4, "name": "VIA_VOID", "supercategory": "semiconductor_defect" },
+    { "id": 5, "name": "CORROSION", "supercategory": "semiconductor_defect" },
+    { "id": 6, "name": "UNKNOWN_ANOMALY", "supercategory": "semiconductor_defect" }
+  ]
+}
