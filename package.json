@@ -1,0 +1,57 @@
+{
+  "name": "silicon-canvas",
+  "version": "1.0.0",
+  "description": "Industrial-grade semiconductor wafer defect inspection & annotation workbench with multi-layer HTML5 canvas, Web Workers, and COCO/YOLO export.",
+  "type": "module",
+  "author": "Rohangarg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rohan-droid7/silicon-canvas.git"
+  },
+  "keywords": [
+    "semiconductor",
+    "wafer-inspection",
+    "canvas",
+    "web-worker",
+    "react",
+    "zustand",
+    "material-ui",
+    "annotation-tool",
+    "coco",
+    "yolo"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.5.0",
+    "@mui/material": "^9.5.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "jsdom": "^25.0.1",
+    "puppeteer-core": "^24.43.1",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.4",
+    "vitest-canvas-mock": "^0.3.3"
+  }
+}
